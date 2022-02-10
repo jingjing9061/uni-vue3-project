@@ -1,6 +1,6 @@
 # uni-vue3-project  vue3+uniapp
 
-#搭建流程
+# 搭建流程
 ## 全局安装vue-cli脚手架
 npm install -g @vue/cli 
 
