@@ -28,6 +28,15 @@ module.exports = [
             navigationBarTitleText: "分类"
 
 		},
-	}
+	},
+    {
+		path: "pages/searchList/index",
+		style: {
+			navigationBarBackgroundColor: "#ffffff",
+			navigationStyle: "custom",
+			backgroundColor: "#f7f7f7",
+            navigationBarTitleText: "搜索"
+		},
+	},
     
 ]

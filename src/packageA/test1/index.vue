@@ -28,10 +28,10 @@ export default {
     },
     setup() {
         const state = reactive({
-            showBg: false,
-            display: 'block',
-            navTop: 0,
-            navHeight: 40,
+            // showBg: false,
+            // display: 'block',
+            // navTop: 0,
+            // navHeight: 40,
             swiperlist: [],
             playlist: []
         })
@@ -51,7 +51,7 @@ export default {
             // state.showBg = scrollY > 40 ? true : false
             // state.display = scrollY > 40 ? 'none' : 'block'
         }
-        console.log('onPageScroll', onPageScroll)
+        // console.log('onPageScroll', onPageScroll)
 
         onPageScroll((e) => {
             scroll(e)
@@ -69,7 +69,6 @@ export default {
             uni.navigateBack({
                 delta: 1
             })
-
         }
         return {
             ...toRefs(state),
